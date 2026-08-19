@@ -1,0 +1,4 @@
+# HMAC 消息认证码（dsh-hmac）bundle patch：作为 profile 的一层 patch，插入本插件的加载行。
+- insert:
+    - id: hmac
+      name: 'dsh-hmac'
